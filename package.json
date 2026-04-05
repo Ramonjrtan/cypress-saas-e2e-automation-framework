@@ -1,0 +1,26 @@
+{
+  "name": "cypress-saas-automation-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Generalized Cypress automation framework for a service management SaaS platform.",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:chrome": "cypress run --browser chrome"
+  },
+  "dependencies": {
+    "cypressproject-1": "file:",
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-real-events": "^1.14.0",
+    "cypress-wait-until": "^3.0.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
